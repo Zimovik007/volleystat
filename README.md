@@ -1,1 +1,1 @@
-# volleystat - simulation of the volleyball matches and counting statistics
+## volleystat - simulation of the volleyball matches and counting statistics
