@@ -1,13 +1,13 @@
 let Render = {
-	getInstance: function(){
-		return this;
-	},
-	renderLeftScore: function(par){
-		document.getElementById('teamScore1').innerHTML = par;
-	},
-	renderRightScore: function(par){
-		document.getElementById('teamScore2').innerHTML = par;
-	}
+    getInstance: function(){
+        return this;
+    },
+    renderLeftScore: function(par){
+        document.getElementById('teamScore1').innerHTML = par;
+    },
+    renderRightScore: function(par){
+        document.getElementById('teamScore2').innerHTML = par;
+    }
 };
 
 let Party = {
