@@ -1,0 +1,15 @@
+button {
+	cursor: pointer;
+	width: 65px;
+	height: 20px;
+}
+p {
+	position: relative;
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+
+div {
+	text-align: center;
+}
