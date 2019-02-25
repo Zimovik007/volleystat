@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="src/libs/Semantic-UI/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="src/libs/Bootstrap4/css/bootstrap.min.css">
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous">    
+        </script>
+        <script src="src/libs/Semantic-UI/semantic.min.js"></script>   
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 sm-hidden xs-hidden"></div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div style="font-size: 128px; font-family: Arial; font-weight: bold;">
+                                <span id="teamScore1">0</span>:<span id="teamScore2">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+                            <div class="ui large buttons">
+                                <button class="ui red button" id="decLeftButton">-1</button>
+                                <div class="or"></div>
+                                <button class="ui blue button" id="incLeftButton">+1</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-center">
+                            <div class="ui large buttons">
+                                <button class="ui red button" id="decRightButton">-1</button>
+                                <div class="or"></div>
+                                <button class="ui blue button" id="incRightButton">+1</button>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="invisible col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <br>
+                    <br>
+                    <table class="table table-bordered table-hovered table-sm text-center">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th></th>
+                                <th>Команда 1</th>
+                                <th>Команда 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td data-label="left">Х</td>
+                                <td data-label="right"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td data-label="left">Х</td>
+                                <td data-label="right"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td data-label="left"></td>
+                                <td data-label="right">X</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td data-label="left">X</td>
+                                <td data-label="right"></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td data-label="left"></td>
+                                <td data-label="right">X</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="src/party.js"></script>
+    </body>
+</html>
